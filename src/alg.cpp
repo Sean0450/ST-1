@@ -1,5 +1,7 @@
 // Copyright 2025 UNN-CS
 #include <cstdint>
+
+
 #include "alg.h"
 
 
@@ -43,4 +45,3 @@ uint64_t sumPrime(uint64_t hbound) {
 		counter++;
 	}
 	return sum;
-}
